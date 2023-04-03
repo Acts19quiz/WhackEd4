@@ -57,6 +57,7 @@ Detailed build instructions (Windows-only)
     * Select "New", and type "C:\****\7z####-extra" (or wherever you extracted the console version of 7-zip). Fill in the #s with the 7-zip version you downloaded. Hit "OK".
 * OPTIONAL: If you want to change the menu text, window titles, etc.
   * You will need wxFormBuilder v3.6.0. Anything later will cause issues. https://github.com/wxFormBuilder/wxFormBuilder/releases/tag/v3.6.0
+  * Start wxFormBuilder, open "whacked4.fbp", and press F8. This will automatically rebuild the UI.
 * Run "build-release-package.cmd".
   * If everything went well, the process will complete, there will be no errors, and you'll have the following in your WhackEd4 directory:
     * The program in the "build" directory.
@@ -66,22 +67,29 @@ Detailed build instructions (Windows-only)
 Files changed from stock WhackEd 1.2.0
 ------------
 \build-release-package.cmd
->"Inno Setup 5" to "Inno Setup 6"
->Add "-REDSKULL" to 7-zip instructions.
+>"Inno Setup 5" to "Inno Setup 6"<br/>Add "-REDSKULL" to 7-zip instructions.
+
 \README.md
 \whacked4.fbp
 >Add " REDSKULL" to three different cases of "WhackEd4" (all but the first one).
+
 \whacked4.iss
 >Add "-REDSKULL" to "OutputBaseFilename".
+
 \cfg\tables_boom.json
 >Change "REDSKUL" to "REDSKULL".
+
 \cfg\tables_doomretro.json
 >Change "REDSKUL" to "REDSKULL".
+
 \cfg\tables_mbf.json
 >Change "REDSKUL" to "REDSKULL".
+
 \cfg\tables_zdaemon.json
 >Change "REDSKUL" to "REDSKULL".
+
 \src\whacked4\config.py
 >Add " REDSKULL" to "APP_NAME = ".
+
 \src\whacked4\ui\windows.py
 >Rebuilt with wxFormBuilder v3.6.0.
