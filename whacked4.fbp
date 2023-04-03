@@ -47,7 +47,7 @@
             <property name="size">1024,560</property>
             <property name="style">wxCAPTION|wxCLOSE_BOX|wxMAXIMIZE_BOX|wxMINIMIZE_BOX|wxRESIZE_BORDER|wxSYSTEM_MENU</property>
             <property name="subclass">wx.MDIParentFrame; </property>
-            <property name="title">WhackEd4</property>
+            <property name="title">WhackEd4 REDSKULL</property>
             <property name="tooltip"></property>
             <property name="window_extra_style"></property>
             <property name="window_name"></property>
@@ -28855,7 +28855,7 @@
             <property name="size">600,340</property>
             <property name="style">wxCAPTION|wxCLOSE_BOX</property>
             <property name="subclass"></property>
-            <property name="title">WhackEd4</property>
+            <property name="title">WhackEd4 REDSKULL</property>
             <property name="tooltip"></property>
             <property name="window_extra_style"></property>
             <property name="window_name"></property>
@@ -29614,7 +29614,7 @@
             <property name="size">640,420</property>
             <property name="style">wxCAPTION|wxCLOSE_BOX</property>
             <property name="subclass"></property>
-            <property name="title">About WhackEd4</property>
+            <property name="title">About WhackEd4 REDSKULL</property>
             <property name="tooltip"></property>
             <property name="window_extra_style"></property>
             <property name="window_name"></property>

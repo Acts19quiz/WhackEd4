@@ -11,7 +11,7 @@ from whacked4 import settingshandler
 
 
 # Application info.
-APP_NAME = 'WhackEd4'
+APP_NAME = 'WhackEd4 REDSKULL'
 APP_SIMPLE_NAME = 'whacked4'
 APP_VERSION = '1.2.0'
 APP_BETA = False

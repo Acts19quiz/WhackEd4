@@ -223,7 +223,7 @@ PREVIEW_CLOSE = 1869
 class MainFrameBase ( wx.MDIParentFrame ):
 	
 	def __init__( self, parent ):
-		wx.MDIParentFrame.__init__ ( self, parent, id = WINDOW_MAIN, title = u"WhackEd4", pos = wx.DefaultPosition, size = wx.Size( 1024,560 ), style = wx.CAPTION|wx.CLOSE_BOX|wx.MAXIMIZE_BOX|wx.MINIMIZE_BOX|wx.RESIZE_BORDER|wx.SYSTEM_MENU|wx.HSCROLL|wx.VSCROLL )
+		wx.MDIParentFrame.__init__ ( self, parent, id = WINDOW_MAIN, title = u"WhackEd4 REDSKULL", pos = wx.DefaultPosition, size = wx.Size( 1024,560 ), style = wx.CAPTION|wx.CLOSE_BOX|wx.MAXIMIZE_BOX|wx.MINIMIZE_BOX|wx.RESIZE_BORDER|wx.SYSTEM_MENU|wx.HSCROLL|wx.VSCROLL )
 		
 		self.SetSizeHintsSz( wx.DefaultSize, wx.DefaultSize )
 		
@@ -3924,7 +3924,7 @@ class PatchInfoDialogBase ( wx.Dialog ):
 class StartDialogBase ( wx.Dialog ):
 	
 	def __init__( self, parent ):
-		wx.Dialog.__init__ ( self, parent, id = DIALOG_START, title = u"WhackEd4", pos = wx.DefaultPosition, size = wx.Size( 600,340 ), style = wx.CAPTION|wx.CLOSE_BOX )
+		wx.Dialog.__init__ ( self, parent, id = DIALOG_START, title = u"WhackEd4 REDSKULL", pos = wx.DefaultPosition, size = wx.Size( 600,340 ), style = wx.CAPTION|wx.CLOSE_BOX )
 		
 		self.SetSizeHintsSz( wx.DefaultSize, wx.DefaultSize )
 		
@@ -4035,7 +4035,7 @@ class StartDialogBase ( wx.Dialog ):
 class AboutDialogBase ( wx.Dialog ):
 	
 	def __init__( self, parent ):
-		wx.Dialog.__init__ ( self, parent, id = DIALOG_ABOUT, title = u"About WhackEd4", pos = wx.DefaultPosition, size = wx.Size( 640,420 ), style = wx.CAPTION|wx.CLOSE_BOX )
+		wx.Dialog.__init__ ( self, parent, id = DIALOG_ABOUT, title = u"About WhackEd4 REDSKULL", pos = wx.DefaultPosition, size = wx.Size( 640,420 ), style = wx.CAPTION|wx.CLOSE_BOX )
 		
 		self.SetSizeHintsSz( wx.DefaultSize, wx.DefaultSize )
 		
