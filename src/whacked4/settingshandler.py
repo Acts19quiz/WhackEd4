@@ -79,7 +79,11 @@ class SettingsHandler(object):
             return
 
         with open(self.path, 'r') as f:
-            settings = json.load(f)
+            try:# WhackEd4
+                settings = json.load(f)
+            except ValueError or json.JSONDecodeError:# WhackEd4
+                print('Could not decode settings, using defaults.')# WhackEd4
+                settings = {}# WhackEd4
 
             # Store only known settings.
             for setting_name in settings.keys():
