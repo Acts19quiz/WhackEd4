@@ -124,7 +124,8 @@ class StatesFrame(editormixin.EditorMixin, windows.StatesFrameBase):
 
         # Setup sprite preview control.
         self.SpritePreview.set_source(self.pwads)
-        self.SpritePreview.set_baseline_factor(0.9)
+        self.SpritePreview.set_baseline_factor(0.85)# WhackEd4
+        self.SpritePreview.set_scale(2)# WhackEd4
 
         # List of selected list indices.
         self.selected = []
