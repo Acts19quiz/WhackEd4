@@ -23464,7 +23464,7 @@
                 </object>
             </object>
         </object>
-        <object class="Dialog" expanded="0">
+        <object class="Dialog" expanded="1">
             <property name="aui_managed">0</property>
             <property name="aui_manager_style">wxAUI_MGR_DEFAULT</property>
             <property name="bg"></property>
@@ -23479,10 +23479,10 @@
             <property name="hidden">0</property>
             <property name="id">wxID_ANY</property>
             <property name="maximum_size"></property>
-            <property name="minimum_size">640,440</property>
+            <property name="minimum_size">680,440</property>
             <property name="name">StatePreviewDialogBase</property>
             <property name="pos"></property>
-            <property name="size">640,440</property>
+            <property name="size">680,440</property>
             <property name="style">wxCAPTION</property>
             <property name="subclass"></property>
             <property name="title">Preview</property>
@@ -23692,7 +23692,7 @@
                         <object class="sizeritem" expanded="0">
                             <property name="border">6</property>
                             <property name="flag">wxALIGN_CENTER_VERTICAL|wxALL</property>
-                            <property name="proportion">2</property>
+                            <property name="proportion">3</property>
                             <object class="wxStaticText" expanded="0">
                                 <property name="BottomDockable">1</property>
                                 <property name="LeftDockable">1</property>
@@ -23753,7 +23753,7 @@
                         <object class="sizeritem" expanded="0">
                             <property name="border">6</property>
                             <property name="flag">wxALIGN_CENTER_VERTICAL|wxALL</property>
-                            <property name="proportion">2</property>
+                            <property name="proportion">3</property>
                             <object class="wxStaticText" expanded="0">
                                 <property name="BottomDockable">1</property>
                                 <property name="LeftDockable">1</property>
