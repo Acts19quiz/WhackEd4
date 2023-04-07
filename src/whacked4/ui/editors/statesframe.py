@@ -88,7 +88,8 @@ class StatesFrame(editormixin.EditorMixin, windows.StatesFrameBase):
             self.Arg9,
             self.Restore,
             self.NextStateName,
-            self.SpriteName
+            self.SpriteName,
+            self.MBF21Fast# Acts 19 quiz
         ]
 
         self.patch = None
@@ -374,6 +375,7 @@ class StatesFrame(editormixin.EditorMixin, windows.StatesFrameBase):
             self.StateList.InsertColumn(6, 'Dur', width=40)
             self.StateList.InsertColumn(7, 'Action', width=160)
             self.StateList.InsertColumn(8, 'Parameters', width=107)
+            self.StateList.InsertColumn(9, 'Fa.', width=27)# Acts 19 quiz
 
         # Add all items in the filtered list.
         list_index = 0
@@ -484,6 +486,11 @@ class StatesFrame(editormixin.EditorMixin, windows.StatesFrameBase):
                 self.AlwaysLit.SetValue(True)
             else:
                 self.AlwaysLit.SetValue(False)
+
+            if self.FRAMEFLAG_LIT != 0:# Acts 19 quiz
+                self.AlwaysFast.SetValue(True)
+            else:
+                self.AlwaysFast.SetValue(False)
             #
             # Do not allow state 0 to be edited.
             if state_index == 0:
@@ -513,6 +520,7 @@ class StatesFrame(editormixin.EditorMixin, windows.StatesFrameBase):
             self.tools_set_state(True)
             self.Unused1.ChangeValue('')
             self.Unused2.ChangeValue('')
+            self.AlwaysFast.SetValue(False)# Acts 19 quiz
             self.Arg1.ChangeValue('')
             self.Arg2.ChangeValue('')
             self.Arg3.ChangeValue('')
@@ -707,6 +715,28 @@ class StatesFrame(editormixin.EditorMixin, windows.StatesFrameBase):
             state = self.filter_states[list_index]
 
             # Remove lit flag, then set it only if it needs to be.
+            frame_index = state['spriteFrame'] & ~self.FRAMEFLAG_LIT
+            if checked:
+                frame_index |= self.FRAMEFLAG_LIT
+
+            state['spriteFrame'] = frame_index
+
+        self.statelist_update_selected_rows()
+        self.is_modified(True)
+
+    def set_fast(self, event):# Acts 19 quiz
+        """
+        Sets the MBF21 fast property of all currently selected states.
+        """
+
+        self.undo_add()
+
+        checked = self.AlwaysFast.GetValue()
+
+        for list_index in self.selected:
+            state = self.filter_states[list_index]
+
+            # Remove fast flag, then set it only if it needs to be.
             frame_index = state['spriteFrame'] & ~self.FRAMEFLAG_LIT
             if checked:
                 frame_index |= self.FRAMEFLAG_LIT
