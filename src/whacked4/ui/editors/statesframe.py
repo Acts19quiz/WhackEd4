@@ -58,6 +58,8 @@ class StatesFrame(editormixin.EditorMixin, windows.StatesFrameBase):
 
     # Doom lit flag. Frame indices with this flag set are always lit by Doom's rendering engine.
     FRAMEFLAG_LIT = 0x8000
+    # MBF21 fast flag. Frame indices with this flag set have half speed in Doom's Nightmare difficulty (or with -fast).
+    MBF21FAST_LIT = 0x1# Acts 19 quiz
 
     def __init__(self, params):
         windows.StatesFrameBase.__init__(self, params)
@@ -74,6 +76,7 @@ class StatesFrame(editormixin.EditorMixin, windows.StatesFrameBase):
             self.AlwaysLit,
             self.NextStateIndex,
             self.Duration,
+            self.MBF21Fast,# Acts 19 quiz Doesn't seem to actually do anything.
             self.Action,
             self.Unused1,
             self.Unused2,
@@ -372,8 +375,9 @@ class StatesFrame(editormixin.EditorMixin, windows.StatesFrameBase):
             self.StateList.InsertColumn(4, 'Lit', width=27)# WhackEd4
             self.StateList.InsertColumn(5, 'Next', width=41)# WhackEd4
             self.StateList.InsertColumn(6, 'Dur', width=40)
-            self.StateList.InsertColumn(7, 'Action', width=160)
-            self.StateList.InsertColumn(8, 'Parameters', width=107)
+            self.StateList.InsertColumn(7, 'Fa.', width=29)# Acts 19 quiz
+            self.StateList.InsertColumn(8, 'Action', width=160)# Acts 19 quiz
+            self.StateList.InsertColumn(9, 'Parameters', width=107)# Acts 19 quiz
 
         # Add all items in the filtered list.
         list_index = 0
@@ -484,12 +488,22 @@ class StatesFrame(editormixin.EditorMixin, windows.StatesFrameBase):
                 self.AlwaysLit.SetValue(True)
             else:
                 self.AlwaysLit.SetValue(False)
+
+            fast_state = state['fastState']
+
+            if state['fastState'] != 0:# Acts 19 quiz
+                self.MBF21Fast.SetValue(True)
+            else:
+                self.MBF21Fast.SetValue(False)
             #
             # Do not allow state 0 to be edited.
             if state_index == 0:
                 self.tools_set_state(False)
             else:
                 self.tools_set_state(True)
+
+            if not self.patch.engine.extended:# Acts 19 quiz
+                    self.MBF21Fast.Disable()
 
             # For non-extended patches, do not allow editing an action on a state that has none.
             if not self.patch.engine.extended:
@@ -513,6 +527,7 @@ class StatesFrame(editormixin.EditorMixin, windows.StatesFrameBase):
             self.tools_set_state(True)
             self.Unused1.ChangeValue('')
             self.Unused2.ChangeValue('')
+            self.MBF21Fast.SetValue(False)# Acts 19 quiz
             self.Arg1.ChangeValue('')
             self.Arg2.ChangeValue('')
             self.Arg3.ChangeValue('')
@@ -716,6 +731,28 @@ class StatesFrame(editormixin.EditorMixin, windows.StatesFrameBase):
         self.statelist_update_selected_rows()
         self.is_modified(True)
 
+    def set_fast(self, event):# Acts 19 quiz
+        """
+        Sets the MBF21 fast property of all currently selected states.
+        """
+
+        self.undo_add()
+
+        checked = self.MBF21Fast.GetValue()
+
+        for list_index in self.selected:
+            state = self.filter_states[list_index]
+
+            # Remove fast flag, then set it only if it needs to be.
+            frame_index = state['fastState'] & ~self.MBF21FAST_LIT
+            if checked:
+                frame_index |= self.MBF21FAST_LIT
+
+            state['fastState'] = frame_index
+
+        self.statelist_update_selected_rows()
+        self.is_modified(True)
+
     def set_action(self, event):
         """
         Sets the action property of all currently selected states.
@@ -792,6 +829,11 @@ class StatesFrame(editormixin.EditorMixin, windows.StatesFrameBase):
         else:
             lit = ''
 
+        if state['fastState'] != 0:
+            fast = '◾'
+        else:
+            fast = ''
+
         action = self.patch.engine.get_action_from_key(state['action'])
         arg_count = get_action_param_counts(action)
 
@@ -805,8 +847,9 @@ class StatesFrame(editormixin.EditorMixin, windows.StatesFrameBase):
         self.StateList.SetItem(list_index, 4, lit)
         self.StateList.SetItem(list_index, 5, str(state['nextState']))
         self.StateList.SetItem(list_index, 6, str(state['duration']))
-        self.StateList.SetItem(list_index, 7, action['name'])
-        self.StateList.SetItem(list_index, 8, parameters)
+        self.StateList.SetItem(list_index, 7, fast)# Acts 19 quiz
+        self.StateList.SetItem(list_index, 8, action['name'])
+        self.StateList.SetItem(list_index, 9, parameters)
 
     def update_colours(self):
         """
@@ -973,9 +1016,10 @@ class StatesFrame(editormixin.EditorMixin, windows.StatesFrameBase):
         columns_width += self.StateList.GetColumnWidth(2) + self.StateList.GetColumnWidth(3)
         columns_width += self.StateList.GetColumnWidth(4) + self.StateList.GetColumnWidth(5)
         columns_width += self.StateList.GetColumnWidth(6) + self.StateList.GetColumnWidth(7)
+        columns_width += self.StateList.GetColumnWidth(8)# Acts 19 quiz
 
         width = self.StateList.GetClientSize()[0] - columns_width - 4
-        self.StateList.SetColumnWidth(8, width)
+        self.StateList.SetColumnWidth(9, width)# Acts 19 quiz
 
     def preview(self):
         filter_data = self.filters[self.Filter.GetSelection()]
