@@ -52,6 +52,7 @@ class StateEntry(Entry):
         ('sprite',      Field('Sprite number',    FieldType.SPRITE)),
         ('spriteFrame', Field('Sprite subnumber', FieldType.INT)),
         ('duration',    Field('Duration',         FieldType.INT)),
+        ('fastState',   Field('MBF21 Bits',       FieldType.INT)),# Acts 19 quiz
         ('action',      Field('Action pointer',   FieldType.ACTION)),
         ('nextState',   Field('Next frame',       FieldType.STATE)),
         ('unused1',     Field('Unknown 1',        FieldType.INT)),
