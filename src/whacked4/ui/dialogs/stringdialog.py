@@ -47,13 +47,11 @@ class StringDialog(windows.StringDialogBase):
             self.SetLabel('String - {}'.format(name))
             self.New.SetWindowStyleFlag(wx.TE_MULTILINE | wx.TE_DONTWRAP | wx.TE_PROCESS_ENTER | wx.TE_PROCESS_TAB)
 
-        if not extended:# Acts 19 quiz
-            # Non-extended string lengths are limited by the padding room in the executable.
-            # Rounded to the next multiple of 4, excluding the terminating NULL character.
-            if cheat:
-                self.max_length = len(engine_string)
+        if extended:
+            self.CharsLeft.Hide()
+        else:
+            self.CharsLeft.Show()
 
-        self.CharsLeft.Hide()
         self.update_length()
 
         self.New.SelectAll()
@@ -76,17 +74,8 @@ class StringDialog(windows.StringDialogBase):
             return
 
         text = self.New.GetValue()
-        chars_left = self.max_length - len(text)
 
-        # Plural formatting.
-        if chars_left == 1:
-            plural = ''
-        else:
-            plural = 's'
-        if chars_left == 0:
-            chars_left = 'No'
-
-        self.CharsLeft.SetLabel('{} character{} left'.format(chars_left, plural))
+        self.CharsLeft.SetLabel('Text {} {}'.format(len(self.engine_string), len(text)))# Acts 19 quiz
 
     def text_keydown(self, event):
         """
