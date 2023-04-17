@@ -1439,7 +1439,7 @@ class ThingsFrameBase ( wx.MDIChildFrame ):
 		# Connect Events
 		self.LabelProperties.Bind( wx.EVT_ERASE_BACKGROUND, self.dummy )
 		self.ThingGameLabel.Bind( wx.EVT_ERASE_BACKGROUND, self.dummy )
-		self.ThingGame.Bind( wx.EVT_CHOICE, self.set_renderstyle )
+		self.ThingGame.Bind( wx.EVT_CHOICE, self.set_game )
 		self.ThingIdLabel.Bind( wx.EVT_ERASE_BACKGROUND, self.dummy )
 		self.ThingId.Bind( wx.EVT_LEFT_UP, self.focus_text )
 		self.ThingId.Bind( wx.EVT_TEXT, self.set_value )
@@ -1661,7 +1661,7 @@ class ThingsFrameBase ( wx.MDIChildFrame ):
 		pass
 
 
-	def set_renderstyle( self, event ):
+	def set_game( self, event ):
 		pass
 
 
@@ -1711,6 +1711,8 @@ class ThingsFrameBase ( wx.MDIChildFrame ):
 
 
 
+	def set_renderstyle( self, event ):
+		pass
 
 
 
