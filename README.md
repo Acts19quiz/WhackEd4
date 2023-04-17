@@ -22,7 +22,7 @@ It also expands on the features of the original Dehacked:
 WhackEd4 is built with Python 2.7, wxPython and PyAudio. The user interface is designed using wxFormBuilder.
 To build the setup executable you will need cx_Freeze and Inno Setup.
 
-For detailed build instructions, visit the local Wiki, [[Detailed build instructions (Windows only)]].
+For detailed build instructions, visit the local Wiki, [Detailed build instructions (Windows only)](https://github.com/Acts19quiz/WhackEd4/wiki/Detailed-build-instructions-(Windows-only)).
 
 ## About
 
