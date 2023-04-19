@@ -18,16 +18,16 @@ Name: {group}\{cm:UninstallProgram, WhackEd4}; Filename: {uninstallexe}
 [Setup]
 InternalCompressLevel=ultra64
 SolidCompression=true
-AppName=WhackEd4
+AppName=WhackEd4 REDSKULL
 AppVerName=WhackEd4 1.2.2.2 REDSKULL
-DefaultDirName={pf}\WhackEd4
+DefaultDirName={pf}\WhackEd4 REDSKULL
 AlwaysUsePersonalGroup=false
 ShowLanguageDialog=no
 AppVersion=1.2.2.2
 UninstallDisplayIcon={app}\whacked4.exe
 UninstallDisplayName=WhackEd4
 AppendDefaultGroupName=true
-DefaultGroupName=WhackEd4
+DefaultGroupName=WhackEd4 REDSKULL
 Compression=lzma2/ultra64
 OutputDir=.
 SourceDir=.
