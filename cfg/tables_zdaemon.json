@@ -17,7 +17,9 @@
 		"weapon.minAmmo",
 		"weapon.decal",
 		"weapon.ammoUse",
-		"nosupport.sounds"
+		"nosupport.sounds",
+		"thing.infight",
+		"thing.projectile"
 	],
 	"name": "ZDaemon",
 
@@ -47161,6 +47163,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -47199,6 +47203,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -47237,6 +47243,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -47275,6 +47283,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -47313,6 +47323,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -47351,6 +47363,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -47389,6 +47403,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -47427,6 +47443,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -47465,6 +47483,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -47503,6 +47523,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -47541,6 +47563,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -47579,6 +47603,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -47617,6 +47643,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -47655,6 +47683,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -47693,6 +47723,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -47731,6 +47763,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -47769,6 +47803,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -47807,6 +47843,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -47845,6 +47883,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -47883,6 +47923,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -47921,6 +47963,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -47959,6 +48003,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -47997,6 +48043,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48035,6 +48083,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48073,6 +48123,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48111,6 +48163,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48149,6 +48203,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48187,6 +48243,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48225,6 +48283,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48263,6 +48323,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48301,6 +48363,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48339,6 +48403,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48377,6 +48443,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48415,6 +48483,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48453,6 +48523,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48491,6 +48563,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48529,6 +48603,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48567,6 +48643,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48605,6 +48683,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48643,6 +48723,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48681,6 +48763,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48719,6 +48803,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48757,6 +48843,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48795,6 +48883,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48833,6 +48923,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48871,6 +48963,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48909,6 +49003,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48947,6 +49043,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -48985,6 +49083,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49023,6 +49123,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49061,6 +49163,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49099,6 +49203,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49137,6 +49243,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49175,6 +49283,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49213,6 +49323,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49251,6 +49363,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49289,6 +49403,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49327,6 +49443,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49365,6 +49483,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49403,6 +49523,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49441,6 +49563,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49479,6 +49603,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49517,6 +49643,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49555,6 +49683,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49593,6 +49723,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49631,6 +49763,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49669,6 +49803,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49707,6 +49843,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49745,6 +49883,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49783,6 +49923,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49821,6 +49963,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49859,6 +50003,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49897,6 +50043,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49935,6 +50083,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -49973,6 +50123,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50011,6 +50163,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50049,6 +50203,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50087,6 +50243,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50125,6 +50283,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50163,6 +50323,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50201,6 +50363,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50239,6 +50403,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50277,6 +50443,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50315,6 +50483,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50353,6 +50523,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50391,6 +50563,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50429,6 +50603,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50467,6 +50643,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50505,6 +50683,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50543,6 +50723,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50581,6 +50763,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50619,6 +50803,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50657,6 +50843,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50695,6 +50883,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50733,6 +50923,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50771,6 +50963,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50809,6 +51003,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50847,6 +51043,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50885,6 +51083,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50923,6 +51123,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50961,6 +51163,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -50999,6 +51203,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51037,6 +51243,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51075,6 +51283,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51113,6 +51323,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51151,6 +51363,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51189,6 +51403,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51227,6 +51443,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51265,6 +51483,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51303,6 +51523,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51341,6 +51563,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51379,6 +51603,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51417,6 +51643,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51455,6 +51683,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51493,6 +51723,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51531,6 +51763,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51569,6 +51803,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51607,6 +51843,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51645,6 +51883,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51683,6 +51923,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51721,6 +51963,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51759,6 +52003,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51797,6 +52043,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51835,6 +52083,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51873,6 +52123,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51911,6 +52163,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51949,6 +52203,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -51987,6 +52243,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -52025,6 +52283,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -52063,6 +52323,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -52101,6 +52363,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -52139,6 +52403,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -52177,6 +52443,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -52215,6 +52483,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -52253,6 +52523,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -52291,6 +52563,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -52329,6 +52603,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -52367,6 +52643,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -52405,6 +52683,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -52443,6 +52723,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": -500
 		},
 		{
@@ -52481,6 +52763,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": -1000
 		},
 		{
@@ -52519,6 +52803,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": -1000
 		},
 		{
@@ -52557,6 +52843,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": -1000
 		},
 		{
@@ -52595,6 +52883,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": -1000
 		},
 		{
@@ -52633,6 +52923,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -52671,6 +52963,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -52709,6 +53003,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -52747,6 +53043,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -52785,6 +53083,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -52823,6 +53123,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -52861,6 +53163,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -52899,6 +53203,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -52937,6 +53243,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -52975,6 +53283,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53013,6 +53323,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53051,6 +53363,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53089,6 +53403,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53127,6 +53443,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53165,6 +53483,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53203,6 +53523,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53241,6 +53563,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53279,6 +53603,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53317,6 +53643,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53355,6 +53683,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53393,6 +53723,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53431,6 +53763,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53469,6 +53803,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53507,6 +53843,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53545,6 +53883,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53583,6 +53923,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53621,6 +53963,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53659,6 +54003,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53697,6 +54043,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53735,6 +54083,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53773,6 +54123,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53811,6 +54163,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53849,6 +54203,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53887,6 +54243,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53925,6 +54283,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -53963,6 +54323,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54001,6 +54363,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54039,6 +54403,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54077,6 +54443,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54115,6 +54483,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54153,6 +54523,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54191,6 +54563,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54229,6 +54603,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54267,6 +54643,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54305,6 +54683,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54343,6 +54723,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54381,6 +54763,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54419,6 +54803,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54457,6 +54843,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54495,6 +54883,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54533,6 +54923,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54571,6 +54963,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54609,6 +55003,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54647,6 +55043,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54685,6 +55083,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54723,6 +55123,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54761,6 +55163,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54799,6 +55203,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54837,6 +55243,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54875,6 +55283,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54913,6 +55323,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54951,6 +55363,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -54989,6 +55403,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55027,6 +55443,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55065,6 +55483,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55103,6 +55523,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55141,6 +55563,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55179,6 +55603,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55217,6 +55643,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55255,6 +55683,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55293,6 +55723,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55331,6 +55763,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55369,6 +55803,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55407,6 +55843,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55445,6 +55883,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55483,6 +55923,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55521,6 +55963,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55559,6 +56003,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55597,6 +56043,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55635,6 +56083,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55673,6 +56123,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55711,6 +56163,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55749,6 +56203,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55787,6 +56243,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55825,6 +56283,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55863,6 +56323,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55901,6 +56363,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55939,6 +56403,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -55977,6 +56443,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -56015,6 +56483,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -56053,6 +56523,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -56091,6 +56563,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -56129,6 +56603,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -56167,6 +56643,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -56205,6 +56683,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -56243,6 +56723,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -56281,6 +56763,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -56319,6 +56803,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -56357,6 +56843,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -56395,6 +56883,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -56433,6 +56923,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -56471,6 +56963,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -56509,6 +57003,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -56547,6 +57043,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -56585,6 +57083,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		},
 		{
@@ -56623,6 +57123,8 @@
 			"scale": 1.0,
 			"damageFactor": 1.0,
 			"gravity": 1.0,
+			"infight": -1,
+			"projectile": -1,
 			"gibHealth": 0
 		}
 	],
@@ -56814,6 +57316,8 @@
 		"scale": 1.0,
 		"damageFactor": 1.0,
 		"gravity": 1.0,
+		"infight": -1,
+		"projectile": -1,
 		"gibHealth": 0
 	}
 }
