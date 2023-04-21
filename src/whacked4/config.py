@@ -13,7 +13,7 @@ from whacked4 import settingshandler
 # Application info.
 APP_NAME = 'WhackEd4 REDSKULL'# Acts 19 quiz
 APP_SIMPLE_NAME = 'whacked4'
-APP_VERSION = '1.2.2.2'# Acts 19 quiz
+APP_VERSION = '1.2.2.3'# Acts 19 quiz
 APP_BETA = False# Acts 19 quiz
 
 # Monospaced font for displays that use them.
