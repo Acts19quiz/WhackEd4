@@ -110,6 +110,7 @@ class ThingEntry(Entry):
         ('gravity',      Field('Gravity',             FieldType.FLOAT)),
         ('infight',      Field('Infighting group',    FieldType.INT)),# Acts 19 quiz
         ('projectile',   Field('Projectile group',    FieldType.INT)),# Acts 19 quiz
+        ('splash',       Field('Splash group',        FieldType.INT)),# Acts 19 quiz
         ('gibHealth',    Field('Gib health',          FieldType.INT))
     ])
 

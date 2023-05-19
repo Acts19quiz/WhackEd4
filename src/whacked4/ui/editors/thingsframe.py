@@ -40,6 +40,7 @@ class ThingsFrame(editormixin.EditorMixin, windows.ThingsFrameBase):
         windows.THING_VAL_GRAVITY: 'gravity',
         windows.THING_VAL_INFIGHT: 'infight',# Acts 19 quiz
         windows.THING_VAL_PROJECTILE: 'projectile',# Acts 19 quiz
+        windows.THING_VAL_SPLASH: 'splash',# Acts 19 quiz
     }
 
     # Value types for text control validation.
@@ -65,6 +66,7 @@ class ThingsFrame(editormixin.EditorMixin, windows.ThingsFrameBase):
         windows.THING_VAL_GRAVITY: 'float',
         windows.THING_VAL_INFIGHT: 'int',# Acts 19 quiz
         windows.THING_VAL_PROJECTILE: 'int',# Acts 19 quiz
+        windows.THING_VAL_SPLASH: 'int',# Acts 19 quiz
     }
 
     # State text control to partial internal key mappings.
@@ -217,6 +219,7 @@ class ThingsFrame(editormixin.EditorMixin, windows.ThingsFrameBase):
 
         self.PanelInfight.Show(('thing.infight' in features))# Acts 19 quiz
         self.PanelProjectile.Show(('thing.projectile' in features))# Acts 19 quiz
+        self.PanelSplash.Show(('thing.splash' in features))# Acts 19 quiz
 
         self.Layout()
 
@@ -382,6 +385,7 @@ class ThingsFrame(editormixin.EditorMixin, windows.ThingsFrameBase):
         self.ThingGravity.ChangeValue(str(thing['gravity']))
         self.ThingInfight.ChangeValue(str(thing['infight']))# Acts 19 quiz
         self.ThingProjectile.ChangeValue(str(thing['projectile']))# Acts 19 quiz
+        self.ThingSplash.ChangeValue(str(thing['splash']))# Acts 19 quiz
 
         # Speed is in fixed point if this thing is a projectile, normal otherwise
         if self.thing_is_projectile:
