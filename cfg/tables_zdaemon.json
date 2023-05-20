@@ -33888,7 +33888,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1527,
@@ -34268,7 +34268,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1547,
@@ -34724,7 +34724,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1571,
@@ -35180,7 +35180,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1595,
@@ -35674,7 +35674,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1621,
@@ -35826,7 +35826,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1629,
@@ -36016,7 +36016,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1639,
@@ -36035,7 +36035,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1640,
@@ -36054,7 +36054,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1641,
@@ -36073,7 +36073,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1642,
@@ -36092,7 +36092,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1643,
@@ -36111,7 +36111,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1644,
@@ -36130,7 +36130,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1645,
@@ -36149,7 +36149,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1646,
@@ -36168,7 +36168,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1647,
@@ -36187,7 +36187,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1648,
@@ -36206,7 +36206,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1649,
@@ -36225,7 +36225,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1650,
@@ -36244,7 +36244,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1651,
@@ -36263,7 +36263,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1652,
@@ -36282,7 +36282,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1653,
@@ -36301,7 +36301,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1654,
@@ -36320,7 +36320,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1655,
@@ -36339,7 +36339,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1656,
@@ -36358,7 +36358,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1657,
@@ -36377,7 +36377,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1658,
@@ -36396,7 +36396,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1659,
@@ -36415,7 +36415,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1660,
@@ -36434,7 +36434,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1661,
@@ -36453,7 +36453,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1662,
@@ -36472,7 +36472,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1663,
@@ -36491,7 +36491,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1664,
@@ -36510,7 +36510,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1665,
@@ -36529,7 +36529,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1666,
@@ -36548,7 +36548,7 @@
 		},
 		{
 			"action": "NULL",
-			"duration": 0,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1667,
@@ -36624,12 +36624,12 @@
 		},
 		{
 			"action": "NULL",
-			"duration": -1,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1671,
 			"sprite": 138,
-			"spriteFrame": 0,
+			"spriteFrame": 28,
 			"fastState": 0,
 			"arg1": 0,
 			"arg2": 0,
@@ -36643,12 +36643,12 @@
 		},
 		{
 			"action": "NULL",
-			"duration": -1,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1672,
 			"sprite": 138,
-			"spriteFrame": 0,
+			"spriteFrame": 28,
 			"fastState": 0,
 			"arg1": 0,
 			"arg2": 0,
@@ -36662,12 +36662,12 @@
 		},
 		{
 			"action": "NULL",
-			"duration": -1,
+			"duration": -2,
 			"unused1": 0,
 			"unused2": 0,
 			"nextState": 1673,
 			"sprite": 138,
-			"spriteFrame": 0,
+			"spriteFrame": 28,
 			"fastState": 0,
 			"arg1": 0,
 			"arg2": 0,
