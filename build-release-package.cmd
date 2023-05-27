@@ -31,6 +31,6 @@ del %app_name_lower%-setup-*.exe
 %setup_compiler% %app_name_lower%.iss
 
 del %app_name_lower%-*.7z
-%zip% a %app_name_lower%-%app_version%-REDSKULL.7z %build_path%\* -r -mx=9 -ms=on
+%zip% a %app_name_lower%-REDSKULL-%app_version%.7z %build_path%\* -r -mx=9 -ms=on
 
 pause
