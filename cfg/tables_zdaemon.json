@@ -3120,7 +3120,7 @@
 		"monstersIgnoreMonsters": 0,
 		"bfgAmmoUsage": 40,
 		"rocketExplosionAlpha": 0.67,
-		"rocketExplosionStyle": 255,
+		"rocketExplosionStyle": "STYLE_Normal",
 		"noAutoFreeze": 0,
 		"bfgAiming": 1
 	},
@@ -3247,7 +3247,7 @@
 		"rocketExplosionStyle": {
 			"name": "Rocket explosion style",
 			"patchKey": "Rocket Explosion Style",
-			"type": "int"
+			"type": "string"
 		},
 		"noAutoFreeze": {
 			"name": "No auto-freeze",
