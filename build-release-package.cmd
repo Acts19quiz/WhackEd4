@@ -4,7 +4,7 @@ set app_description=A Windows Dehacked editor.
 set app_name=WhackEd4
 set app_name_lower=whacked4
 
-set app_version=1.2.2.5
+set app_version=1.2.3
 set app_version_value=1.2.2
 set app_version_title=1.2.2
 
