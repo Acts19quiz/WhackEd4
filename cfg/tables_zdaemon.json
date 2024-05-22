@@ -2836,7 +2836,7 @@
 		"rocketExplosionStyle": {
 			"name": "Rocket explosion style",
 			"patchKey": "Rocket Explosion Style",
-			"type": "int"
+			"type": "string"
 		},
 		"noAutoFreeze": {
 			"name": "No auto-freeze",
