@@ -48,17 +48,8 @@ class StringDialog(windows.StringDialogBase):
             self.New.SetWindowStyleFlag(wx.TE_MULTILINE | wx.TE_DONTWRAP | wx.TE_PROCESS_ENTER | wx.TE_PROCESS_TAB)
 
         if extended:
-            self.max_length = 0
-            self.New.SetMaxLength(0)
             self.CharsLeft.Hide()
         else:
-            # Non-extended string lengths are limited by the padding room in the executable.
-            # Rounded to the next multiple of 4, excluding the terminating NULL character.
-            if cheat:
-                self.max_length = len(engine_string)
-            else:
-                self.max_length = len(engine_string) + (4 - (len(engine_string) % 4)) - 1
-
             self.CharsLeft.Show()
 
         self.update_length()
@@ -83,17 +74,8 @@ class StringDialog(windows.StringDialogBase):
             return
 
         text = self.New.GetValue()
-        chars_left = self.max_length - len(text)
 
-        # Plural formatting.
-        if chars_left == 1:
-            plural = ''
-        else:
-            plural = 's'
-        if chars_left == 0:
-            chars_left = 'No'
-
-        self.CharsLeft.SetLabel('{} character{} left'.format(chars_left, plural))
+        self.CharsLeft.SetLabel('Text {} {}'.format(len(self.engine_string), len(text)))# Acts 19 quiz
 
     def text_keydown(self, event):
         """
@@ -101,22 +83,6 @@ class StringDialog(windows.StringDialogBase):
 
         Handles the fact that a text control's MaxLength setting does not count newlines.
         """
-
-        if not self.extended:
-            text = self.New.GetValue()
-
-            # Add the number of newlines to the text control's true MaxLength.
-            newline_count = text.count('\n')
-            max_len = self.max_length + newline_count
-
-            # Allow the last key to be entered to be a newline.
-            # Without this, the last character that fills up the textbox cannot be a newline, since the new length is
-            # calculated after the key was pressed.
-            key_code = event.GetKeyCode()
-            if self.max_length - 1 == len(text) and (key_code == wx.WXK_RETURN or key_code == wx.WXK_NUMPAD_ENTER):
-                max_len += 1
-
-            self.New.SetMaxLength(max_len)
 
         event.Skip()
 

@@ -4,7 +4,8 @@ Name: associate; Description: Associate with Dehacked patch files
 
 
 [Files]
-Source: .\build\exe.win32-3.8\*.*; DestDir: {app}; Flags: recursesubdirs createallsubdirs
+// Acts19quiz
+Source: .\build\exe.win32-3.7\*.*; DestDir: {app}; Flags: recursesubdirs createallsubdirs
 Source: .\fonts\dejavu-sans-mono\DejaVuSansMono.ttf; DestDir: {fonts}; Flags: onlyifdoesntexist uninsneveruninstall; FontInstall: DejaVu Sans Mono
 Source: .\fonts\dejavu-sans-mono\DejaVuSansMono-Bold.ttf; DestDir: {fonts}; Flags: onlyifdoesntexist uninsneveruninstall; FontInstall: DejaVu Sans Mono Bold
 
@@ -18,20 +19,25 @@ Name: {group}\{cm:UninstallProgram, WhackEd4}; Filename: {uninstallexe}
 [Setup]
 InternalCompressLevel=ultra64
 SolidCompression=true
-AppName=WhackEd4
-AppVerName=WhackEd4 1.2.4
-DefaultDirName={pf}\WhackEd4
+// Acts 19 quiz
+AppName=WhackEd4 REDSKULL
+// Acts 19 quiz
+AppVerName=WhackEd4 REDSKULL 1.2.4
+// Acts 19 quiz
+DefaultDirName={pf}\WhackEd4 REDSKULL
 AlwaysUsePersonalGroup=false
 ShowLanguageDialog=no
 AppVersion=1.2.4
 UninstallDisplayIcon={app}\whacked4.exe
 UninstallDisplayName=WhackEd4
 AppendDefaultGroupName=true
-DefaultGroupName=WhackEd4
+// Acts 19 quiz
+DefaultGroupName=WhackEd4 REDSKULL
 Compression=lzma2/ultra64
 OutputDir=.
 SourceDir=.
-OutputBaseFilename=whacked4-setup-1.2.4
+// Acts 19 quiz
+OutputBaseFilename=whacked4-REDSKULL-setup-1.2.4
 AllowNoIcons=true
 PrivilegesRequired=admin
 ChangesAssociations=true

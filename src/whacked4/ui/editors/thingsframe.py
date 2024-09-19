@@ -46,8 +46,8 @@ class ThingsFrame(editormixin.EditorMixin, windows.ThingsFrameBase):
         windows.THING_VAL_HEALTH: 'int',
         windows.THING_VAL_GIBHEALTH: 'int',
         windows.THING_VAL_SPEED: 'int',
-        windows.THING_VAL_RADIUS: 'fixed',
-        windows.THING_VAL_HEIGHT: 'fixed',
+        windows.THING_VAL_RADIUS: 'int',# Acts 19 quiz
+        windows.THING_VAL_HEIGHT: 'int',# Acts 19 quiz
         windows.THING_VAL_DAMAGE: 'int',
         windows.THING_VAL_REACTIONTIME: 'int',
         windows.THING_VAL_PAINCHANCE: 'int',
@@ -358,8 +358,10 @@ class ThingsFrame(editormixin.EditorMixin, windows.ThingsFrameBase):
         self.ThingId.ChangeValue(str(thing['id']))
         self.ThingHealth.ChangeValue(str(thing['health']))
         self.ThingGibHealth.ChangeValue(str(thing['gibHealth']))
-        self.ThingRadius.ChangeValue(str(thing['radius'] / self.FIXED_UNIT))
-        self.ThingHeight.ChangeValue(str(thing['height'] / self.FIXED_UNIT))
+        # https://stackoverflow.com/questions/117250/how-do-i-get-a-decimal-value-when-using-the-division-operator-in-python
+        # We want Python 2-style division in Python 3 that doesn't add unwanted decimal points.--Acts 19 quiz
+        self.ThingRadius.ChangeValue(str(thing['radius'] // self.FIXED_UNIT))# Acts 19 quiz
+        self.ThingHeight.ChangeValue(str(thing['height'] // self.FIXED_UNIT))# Acts 19 quiz
         self.ThingDamage.ChangeValue(str(thing['damage']))
         self.ThingReactionTime.ChangeValue(str(thing['reactionTime']))
         self.ThingPainChance.ChangeValue(str(thing['painChance']))
@@ -443,7 +445,7 @@ class ThingsFrame(editormixin.EditorMixin, windows.ThingsFrameBase):
         key = self.PROPS_VALUES[window_id]
         if value_type == 'fixed':
             value *= self.FIXED_UNIT
-        elif key == 'speed' and self.thing_is_projectile:
+        elif key == 'speed' and self.thing_is_projectile or key == 'radius' or key == 'height':# Acts 19 quiz
             value *= self.FIXED_UNIT
 
         thing[key] = value

@@ -8,10 +8,13 @@ set app_version=1.2.4
 set app_version_value=1.2.4
 set app_version_title=1.2.4
 
-set build_path=".\build\exe.win32-3.8"
+:: Acts 19 quiz
+set build_path=".\build\exe.win32-3.7"
 
-set python_interpreter=py -3
-set setup_compiler="C:\Program Files (x86)\Inno Setup 5\ISCC.exe"
+:: Acts 19 quiz
+set python_interpreter=py -3.7
+:: Acts 19 quiz
+set setup_compiler="C:\Program Files (x86)\Inno Setup 6\ISCC.exe"
 set zip=7za
 
 
@@ -31,6 +34,7 @@ del %app_name_lower%-setup-*.exe /S /Q
 %setup_compiler% %app_name_lower%.iss
 
 del %app_name_lower%-*.7z /S /Q
-%zip% a %app_name_lower%-%app_version%.7z %build_path%\* -r -mx=9 -ms=on
+:: Acts 19 quiz
+%zip% a %app_name_lower%-REDSKULL-%app_version%.7z %build_path%\* -r -mx=9 -ms=on
 
 pause

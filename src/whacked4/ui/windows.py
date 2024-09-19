@@ -223,7 +223,7 @@ PREVIEW_CLOSE = 1869
 class MainFrameBase ( wx.MDIParentFrame ):
 
 	def __init__( self, parent ):
-		wx.MDIParentFrame.__init__ ( self, parent, id = WINDOW_MAIN, title = u"WhackEd4", pos = wx.DefaultPosition, size = wx.Size( 1024,560 ), style = wx.CAPTION|wx.CLOSE_BOX|wx.MAXIMIZE_BOX|wx.MINIMIZE_BOX|wx.RESIZE_BORDER|wx.SYSTEM_MENU|wx.HSCROLL|wx.VSCROLL )
+		wx.MDIParentFrame.__init__ ( self, parent, id = WINDOW_MAIN, title = u"WhackEd4 REDSKULL", pos = wx.DefaultPosition, size = wx.Size( 1024,560 ), style = wx.CAPTION|wx.CLOSE_BOX|wx.MAXIMIZE_BOX|wx.MINIMIZE_BOX|wx.RESIZE_BORDER|wx.SYSTEM_MENU|wx.HSCROLL|wx.VSCROLL )
 
 		self.SetSizeHints( wx.DefaultSize, wx.DefaultSize )
 
@@ -4022,7 +4022,7 @@ class PatchInfoDialogBase ( wx.Dialog ):
 class StartDialogBase ( wx.Dialog ):
 
 	def __init__( self, parent ):
-		wx.Dialog.__init__ ( self, parent, id = DIALOG_START, title = u"WhackEd4", pos = wx.DefaultPosition, size = wx.Size( 600,340 ), style = wx.CAPTION|wx.CLOSE_BOX )
+		wx.Dialog.__init__ ( self, parent, id = DIALOG_START, title = u"WhackEd4 REDSKULL", pos = wx.DefaultPosition, size = wx.Size( 600,340 ), style = wx.CAPTION|wx.CLOSE_BOX )
 
 		self.SetSizeHints( wx.DefaultSize, wx.DefaultSize )
 
@@ -4135,7 +4135,7 @@ class StartDialogBase ( wx.Dialog ):
 class AboutDialogBase ( wx.Dialog ):
 
 	def __init__( self, parent ):
-		wx.Dialog.__init__ ( self, parent, id = DIALOG_ABOUT, title = u"About WhackEd4", pos = wx.DefaultPosition, size = wx.Size( 640,480 ), style = wx.CAPTION|wx.CLOSE_BOX )
+		wx.Dialog.__init__ ( self, parent, id = DIALOG_ABOUT, title = u"About WhackEd4 REDSKULL", pos = wx.DefaultPosition, size = wx.Size( 640,480 ), style = wx.CAPTION|wx.CLOSE_BOX )
 
 		self.SetSizeHints( wx.DefaultSize, wx.DefaultSize )
 
@@ -4162,10 +4162,15 @@ class AboutDialogBase ( wx.Dialog ):
 
 		bSizer56.Add( ( 0, 9), 0, wx.EXPAND, 5 )
 
-		self.m_staticText115 = wx.StaticText( self, wx.ID_ANY, u"http://www.teamhellspawn.com/exl/whacked4", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_staticText115 = wx.StaticText( self, wx.ID_ANY, u"https://github.com/Acts19quiz/WhackEd4", wx.DefaultPosition, wx.DefaultSize, 0 )
 		self.m_staticText115.Wrap( -1 )
 
 		bSizer56.Add( self.m_staticText115, 0, wx.ALL, 5 )
+
+		self.m_staticText1151 = wx.StaticText( self, wx.ID_ANY, u"Original WhackEd4 by Exl; WhackEd4 REDSKULL by Acts 19 quiz", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_staticText1151.Wrap( -1 )
+
+		bSizer56.Add( self.m_staticText1151, 0, wx.ALL, 5 )
 
 
 		bSizer56.Add( ( 0, 9), 0, wx.EXPAND, 5 )
@@ -4184,6 +4189,11 @@ class AboutDialogBase ( wx.Dialog ):
 
 
 		bSizer56.Add( bSizer84, 0, wx.EXPAND, 5 )
+
+		self.m_staticText1392 = wx.StaticText( self, wx.ID_ANY, u"Red skull icon from st_hi-res.pk3", wx.DefaultPosition, wx.DefaultSize, 0 )
+		self.m_staticText1392.Wrap( -1 )
+
+		bSizer56.Add( self.m_staticText1392, 0, wx.ALL, 5 )
 
 
 		bSizer56.Add( ( 0, 9), 0, wx.EXPAND, 5 )
@@ -4253,7 +4263,7 @@ class AboutDialogBase ( wx.Dialog ):
 class ErrorDialogBase ( wx.Dialog ):
 
 	def __init__( self, parent ):
-		wx.Dialog.__init__ ( self, parent, id = DIALOG_ERROR, title = u"WhackEd4 fatal error", pos = wx.DefaultPosition, size = wx.Size( 640,480 ), style = wx.CAPTION|wx.CLOSE_BOX|wx.SYSTEM_MENU )
+		wx.Dialog.__init__ ( self, parent, id = DIALOG_ERROR, title = u"WhackEd4 REDSKULL fatal error", pos = wx.DefaultPosition, size = wx.Size( 640,480 ), style = wx.CAPTION|wx.CLOSE_BOX|wx.SYSTEM_MENU )
 
 		self.SetSizeHints( wx.DefaultSize, wx.DefaultSize )
 
